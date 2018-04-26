@@ -1,7 +1,7 @@
 <?php
     session_start();
     
-    require_once 'vendor/autoload.php';  //C:\xampp\htdocs\MyOauthapp\GoogleAPI\vendor\autoload.php
+    include '../vendor/autoload.php'; //'vendor/autoload.php';  //C:\xampp\htdocs\MyOauthapp\GoogleAPI\vendor\autoload.php
     
     
     $gclient = new Google_Client();
@@ -9,6 +9,8 @@
     $gclient->setClientSecret("qoRvFanoybEmg95SiPic7m_u");
     $gclient->setApplicationName("Sign in easily");
     $gclient->setRedirectUri("http://localhost:81/MyOauthapp/GoogleLogin/g-callback.php");
-    $gclient->addScope($scope_or_scopes="https://googleapis.com/auth/plus.login https://googleapis.com/auth/userinfo.email");
+    $scope_or_scopes = "https://googleapis.com/auth/plus.login https://googleapis.com/auth/userinfo.email";
+    $gclient->addScope($scope_or_scopes);
+    $loginURL =$gclient->createAuthUrl();
 ?>
 

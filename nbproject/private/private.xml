@@ -4,11 +4,11 @@
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
             <file>file:/C:/xampp/htdocs/MyOauthapp/LinkedInLogin/index.php</file>
-            <file>file:/C:/xampp/htdocs/MyOauthapp/LinkedInLogin/landing.php</file>
-            <file>file:/C:/xampp/htdocs/MyOauthapp/LinkedInLogin/l-callback.php</file>
-            <file>file:/C:/xampp/htdocs/MyOauthapp/LinkedInLogin/init.php</file>
+            <file>file:/C:/xampp/htdocs/MyOauthapp/GoogleLogin/login.php</file>
+            <file>file:/C:/xampp/htdocs/MyOauthapp/GithubLogin/login.php</file>
+            <file>file:/C:/xampp/htdocs/MyOauthapp/GithubLogin/logout.php</file>
             <file>file:/C:/xampp/htdocs/MyOauthapp/GithubLogin/config.php</file>
-            <file>file:/C:/xampp/htdocs/MyOauthapp/LinkedInLogin/logout.php</file>
+            <file>file:/C:/xampp/htdocs/MyOauthapp/GithubLogin/git-callback.php</file>
         </group>
     </open-files>
 </project-private>
