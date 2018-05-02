@@ -9,8 +9,8 @@
     $gclient->setClientSecret("qoRvFanoybEmg95SiPic7m_u");
     $gclient->setApplicationName("Sign in easily");
     $gclient->setRedirectUri("http://localhost:81/MyOauthapp/GoogleLogin/g-callback.php");
-    $scope_or_scopes = "https://googleapis.com/auth/plus.login https://googleapis.com/auth/userinfo.email";
-    $gclient->addScope($scope_or_scopes);
+    $scope_or_scopes = "profile email";
+    $gclient->addScope($scope_or_scopes); //https://googleapis.com/auth/plus.login 
     $loginURL =$gclient->createAuthUrl();
 ?>
 

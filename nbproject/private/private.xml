@@ -3,12 +3,11 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/C:/xampp/htdocs/MyOauthapp/LinkedInLogin/index.php</file>
+            <file>file:/C:/xampp/htdocs/MyOauthapp/GoogleLogin/index.php</file>
             <file>file:/C:/xampp/htdocs/MyOauthapp/GoogleLogin/login.php</file>
-            <file>file:/C:/xampp/htdocs/MyOauthapp/GithubLogin/login.php</file>
-            <file>file:/C:/xampp/htdocs/MyOauthapp/GithubLogin/logout.php</file>
-            <file>file:/C:/xampp/htdocs/MyOauthapp/GithubLogin/config.php</file>
-            <file>file:/C:/xampp/htdocs/MyOauthapp/GithubLogin/git-callback.php</file>
+            <file>file:/C:/xampp/htdocs/MyOauthapp/GoogleLogin/g-callback.php</file>
+            <file>file:/C:/xampp/htdocs/MyOauthapp/GoogleLogin/logout.php</file>
+            <file>file:/C:/xampp/htdocs/MyOauthapp/GoogleLogin/config.php</file>
         </group>
     </open-files>
 </project-private>
